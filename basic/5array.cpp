@@ -1,11 +1,17 @@
+#include<iostream>
+using namespace std;
+
+
+
 #include<stdio.h>
 int main (){
     int a[10];
     a[0] = 3;
     printf("%d", *(a+0));
+    string G = "hello world";
 
 
-    char A[100] = "안녕하세요";
+    char A[100] = "안녕";
     printf("\n%s", A);
      printf("\n%d",sizeof(A)); //문자열 길이
 

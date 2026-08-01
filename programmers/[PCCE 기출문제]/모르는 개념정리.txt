@@ -2,3 +2,11 @@ str.replace(시작_위치, 바꿀_길이, "새로운_문자열");    문자열 �
 usage = usage * (1+change[i] / 100.0); //usage += usage * change[i] / 100;  (소수점을 만들지 않고 계산 하던가 곱할때 소숫점 포함시키기)  물 부족: 
 string last_four_words = code.substr(code.size()-4, 4); //마지막 네글자 가져오기! =============
 string txt -> txt +"hello" 가능       문자열 섞기
+문자열 배열 길이 : sizeof(arr)
+int > string : to_string(),        string > int : stoi()
+max(1, 2) > 1과 2중에 큰값 return
+조건식 ? 참일_때_값 : 거짓일_때_값        flag에 따라 다르 값 반환하기
+bool 자료형은 true, false로 받기
+문자열 : ""       문자형 : ''
+제곱 pow(int, 1.2.3)
+sizeof() -> C배열(메모리 값),    size() ->C++STL(실제 길이)
