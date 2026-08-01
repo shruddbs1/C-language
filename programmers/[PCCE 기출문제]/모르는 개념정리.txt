@@ -13,3 +13,4 @@ sizeof() -> C배열(메모리 값),    size() ->C++STL(실제 길이)
 배열 위치안에 음수 금지 v[-1]
 배열 요소추가 v.push_back(1)
 배열 가장 작은값 찾기 int min_val = *std::min_element(arr.begin(), arr.end());
+h
